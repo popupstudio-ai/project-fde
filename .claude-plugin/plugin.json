@@ -1,0 +1,12 @@
+{
+  "name": "project-os",
+  "displayName": "project-os",
+  "version": "0.1.0",
+  "description": "프로젝트를 하나씩 관리하는 문서 시스템 — briefing/wrap-up/new-project 스킬 + 세션 시작 자동 브리핑 훅. 정보 유실 0 · 토큰 효율(3계층 lazy-load) 지향.",
+  "author": {
+    "name": "Jacob",
+    "email": "jacob@popupstudio.ai"
+  },
+  "keywords": ["project-management", "workflow", "session", "korean"],
+  "hooks": "./hooks/hooks.json"
+}

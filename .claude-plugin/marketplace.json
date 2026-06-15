@@ -1,0 +1,15 @@
+{
+  "name": "project-os",
+  "version": "0.1.0",
+  "owner": {
+    "name": "Jacob",
+    "email": "jacob@popupstudio.ai"
+  },
+  "plugins": [
+    {
+      "name": "project-os",
+      "source": "./",
+      "description": "프로젝트를 하나씩 관리하는 문서 시스템 — briefing/wrap-up/new-project 스킬 + 세션 시작 자동 브리핑 훅."
+    }
+  ]
+}

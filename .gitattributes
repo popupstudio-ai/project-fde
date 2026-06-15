@@ -1,0 +1,2 @@
+# 셸 스크립트는 LF 고정 — Windows에서 클론해도 bash 훅(briefing.sh)이 깨지지 않게
+*.sh text eol=lf

@@ -35,7 +35,7 @@ L3 (포인터로만, 필요시)    ── archive/ · reference/ · sessions/
 **플러그인 본체** (설치되면 Claude Code가 관리하는 위치):
 
 ```
-project-os/   ← 이 폴더 자체가 Claude Code 플러그인 + 로컬 마켓플레이스
+project-fde/   ← 이 폴더 자체가 Claude Code 플러그인 + 로컬 마켓플레이스
 ├── .claude-plugin/
 │   ├── plugin.json       매니페스트
 │   └── marketplace.json  로컬 설치용
@@ -168,7 +168,7 @@ project-os/   ← 이 폴더 자체가 Claude Code 플러그인 + 로컬 마켓�
 - **세션 끝 — "wrap-up"**: ① active 갱신 → ② sessions/날짜 append → ③ dashboard 갱신 → ④ roadmap 갱신 → ⑤ phase 완료면 archive 이동 → ⑥ 부풀면 내려보내기. (각 단계에서 기록 척도 적용.)
 - **세션 시작 — "briefing"**: L1 + active 읽고 "지난번까지 X, 다음은 Y" 3줄.
 
-→ 이 트리거들은 플러그인 스킬(`/project-os:briefing` · `/project-os:wrap-up` · `/project-os:new-project`)로 구현됨. 새 phase 생성은 스킬이 아니라 각 프로젝트 `CLAUDE.md`의 자동 행동. 세션 시작 자동 브리핑은 `hooks/hooks.json`(SessionStart).
+→ 이 트리거들은 플러그인 스킬(`/project-fde:briefing` · `/project-fde:wrap-up` · `/project-fde:new-project`)로 구현됨. 새 phase 생성은 스킬이 아니라 각 프로젝트 `CLAUDE.md`의 자동 행동. 세션 시작 자동 브리핑은 `hooks/hooks.json`(SessionStart).
 
 ---
 

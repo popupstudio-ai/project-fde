@@ -8,7 +8,7 @@
 # 1) 마켓플레이스 등록
 claude plugin marketplace add https://github.com/popup-jacob/project-fde
 # 2) 설치 (user 스코프 = 모든 프로젝트에서 사용)
-claude plugin install project-os@project-os
+claude plugin install project-fde@project-fde
 ```
 
 > 훅·스킬 갱신 후엔 `/reload-plugins`.
@@ -18,9 +18,9 @@ claude plugin install project-os@project-os
 
 | 스킬 | 언제 | 자연어 예시 |
 |---|---|---|
-| `/project-os:briefing` | 세션 시작 | "지금까지 뭐했고 다음은?" |
-| `/project-os:new-project` | 설계 대화 후 | "새 프로젝트 시작" |
-| `/project-os:wrap-up` | 세션 끝 | "문서 업데이트하고 끝내자" |
+| `/project-fde:briefing` | 세션 시작 | "지금까지 뭐했고 다음은?" |
+| `/project-fde:new-project` | 설계 대화 후 | "새 프로젝트 시작" |
+| `/project-fde:wrap-up` | 세션 끝 | "문서 업데이트하고 끝내자" |
 
 새 단계(phase)는 명령어 없이 자동 — "이제 X 만들자"라고 하면 생성된다.
 

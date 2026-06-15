@@ -1,6 +1,6 @@
 # [프로젝트명] — Claude 운영 지침
 
-> 이 프로젝트는 **project-os** 시스템으로 관리됨. 이 파일은 매 세션 자동 로드되는 상시 규칙이다.
+> 이 프로젝트는 **project-fde** 시스템으로 관리됨. 이 파일은 매 세션 자동 로드되는 상시 규칙이다.
 > 짧게 유지 — 상세는 가리키기만 한다.
 
 ## 세션 시작 시 읽을 것 (이것만 — 토큰 절약)
@@ -49,6 +49,6 @@
 
 ## 더 필요할 때만
 
-- 의사결정 원칙 → project-os `principles.md`
-- 시스템 전체 설계 → project-os `design.md`
-- (슬래시 단축키: `/project-os:briefing` · `/project-os:wrap-up`. 새 단계/새 프로젝트는 자연어로 말하면 자동.)
+- 의사결정 원칙 → project-fde `principles.md`
+- 시스템 전체 설계 → project-fde `design.md`
+- (슬래시 단축키: `/project-fde:briefing` · `/project-fde:wrap-up`. 새 단계/새 프로젝트는 자연어로 말하면 자동.)

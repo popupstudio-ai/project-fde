@@ -6,7 +6,7 @@
 
 ```bash
 # 1) 마켓플레이스 등록
-claude plugin marketplace add https://github.com/popup-jacob/project-fde
+claude plugin marketplace add https://github.com/popupstudio-ai/project-fde
 # 2) 설치 (user 스코프 = 모든 프로젝트에서 사용)
 claude plugin install project-fde@project-fde
 ```
